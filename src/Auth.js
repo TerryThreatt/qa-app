@@ -7,6 +7,7 @@ class Auth {
             audience: 'https://dev-u2yae36t.auth0.com/userinfo',
             clientID: 'EgHE0ybb9heFp60stroxdcwRNgGqiNxC',
             redirectUri: 'http://localhost:3000/callback',
+            responseType: 'id_token',
             scope: 'openid profile'
 
         });
