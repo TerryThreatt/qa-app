@@ -22,6 +22,11 @@ class Questions extends Component {
     return (
       <div className="container">
         <div className="row">
+          <Link to="/new-question">
+            <div className="card text-white bg-secondary mb-3">
+              <div className="card-header">Need help? Ask here!</div>
+            </div>
+          </Link>
           {this.state.questions === null && <p>Loading questions...</p>}
           {
             this.state.questions && this.state.questions.map(question => (
